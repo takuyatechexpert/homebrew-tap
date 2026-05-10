@@ -1,28 +1,28 @@
 class Lazydb < Formula
   desc "Standalone TUI SQL client with vim keybindings"
   homepage "https://github.com/takuyatechexpert/lazydb"
-  version "0.2.0"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.0/lazydb-aarch64-apple-darwin.tar.gz"
-      sha256 "7d8c3c8ea8319d257a489053920f2c3f6e17aa060108455e5871e25ea8c12462"
+      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.2/lazydb-aarch64-apple-darwin.tar.gz"
+      sha256 "5578f847a800cbdbd4fad1ef68c6b135ee66b0818fb489c5cfd9a7e2bf7ae973"
     end
     on_intel do
-      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.0/lazydb-x86_64-apple-darwin.tar.gz"
-      sha256 "d7dcda8df9f45e56453c825bf861b5eb0182421c2edb48062538d73fc316d07e"
+      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.2/lazydb-x86_64-apple-darwin.tar.gz"
+      sha256 "457e1b33774a24d13fb5c98101581ff0f04db584050d988ab93de77d4207203b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.0/lazydb-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a7f853a8ac48a35e25f5d9f703d538c737c4968b02ec158d95a7266e5381fd81"
+      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.2/lazydb-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9e8b0d35738e3b078845e976e27341cc4f2fff7dd021eee4303e9798537baf06"
     end
     on_intel do
-      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.0/lazydb-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1b1f7b25fb5af29b2a5fa0fe3768807ef074c214f30e933da19b6b1ae4041c5b"
+      url "https://github.com/takuyatechexpert/lazydb/releases/download/v0.2.2/lazydb-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "612e37be1ff3b58a5675c3738a1abd174a652f58f60cdc8123beaaa7145bf427"
     end
   end
 
